@@ -12,8 +12,7 @@ public class SendTextMsgInHike extends StartUpFile{
 	{
 	   //locate the Text on the calculator by using By.name()
 		
-		StartUpFile start=new StartUpFile();
-		start.setUp();
+		setUp();
 	   WebElement next=driver.findElement(By.id("com.bsb.hike:id/validate_btn"));
 	   next.click();
 	   

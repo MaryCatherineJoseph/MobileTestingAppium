@@ -1,6 +1,8 @@
 package com.pack.mob;
 
-public class SampleScroll {
+import com.pack.startFile.StartUpFile;
+
+public class SampleScroll extends StartUpFile{
 
 	
 	
